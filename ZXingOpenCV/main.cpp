@@ -773,14 +773,14 @@ void test() {
     gimg.release();
 }
 void main() {
-    char fpath[] = "E:\\cur_work\\LaserScanner\\CSReader_araj\\CSReader\\CalcBeadValue\\CalcBeadValue\\cat_dish.png";
-    Mat img1 = imread(fpath);
-    imshow("here", img1);
-    waitKey(0);
-    return;
-
-    //test();
+    //char fpath[] = "E:\\cur_work\\LaserScanner\\CSReader_araj\\CSReader\\CalcBeadValue\\CalcBeadValue\\cat_dish.png";
+    //Mat img1 = imread(fpath);
+    //imshow("here", img1);
+    //waitKey(0);
     //return;
+
+    test();
+    return;
     for (int i = 2; i < 57; i++) {
         char path[256];
         sprintf(path, "../../imgs/2/%d.png", (i % 57) +1);
