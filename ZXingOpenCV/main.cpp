@@ -779,8 +779,8 @@ void main() {
     //waitKey(0);
     //return;
 
-    test();
-    return;
+    //test();
+    //return;
     for (int i = 2; i < 57; i++) {
         char path[256];
         sprintf(path, "../../imgs/2/%d.png", (i % 57) +1);
